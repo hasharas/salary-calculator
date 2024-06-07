@@ -1,0 +1,136 @@
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-input{
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 12px 15px;
+}
+
+.description {
+    color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.add-new-button {
+    color: #0052EA;
+    
+    width: max-content;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    font-size: 14px;
+    font-weight: 500;
+    
+    cursor: pointer;
+}
+
+.add-new-button img{
+    width: 14px;
+    height: 14px;
+}
+
+table {
+    width: 424px;
+    margin-left: 8px;
+}
+
+@media only screen and (max-width:1024px) {
+    table{
+        width: 97%;
+    }
+}
+
+th{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px 0;
+}
+
+
+td {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 8px 0px;
+}
+
+.items {
+    text-align: left;
+}
+
+.amount {
+    text-align: right;
+}
+
+.net-salary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 16px;
+
+    position: relative;
+}
+
+.check-box {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+.check-box:checked{
+    background-color: #0052EA;
+}
+
+.check-box {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #E0E0E0;
+    background-color: white;
+  }
+
+  .check-box:checked {
+    background-color: #0052EA;
+    border: 1px solid #2196F3;
+  }
+
+  .checked-icon-wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .checked-icon {
+    width: 70%; 
+  }
